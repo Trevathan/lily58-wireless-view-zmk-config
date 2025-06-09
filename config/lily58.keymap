@@ -70,8 +70,8 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        layer_3 {
-            display-name = "Raise";
+        SoftOffLayer {
+            display-name = "Esc -> Off";
             bindings = <
 &soft_off  &trans  &trans  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
 &trans     &trans  &trans  &trans   &trans   &trans                     &trans  &trans  &trans  &trans  &trans  &trans
