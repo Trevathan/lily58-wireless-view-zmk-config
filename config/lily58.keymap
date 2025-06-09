@@ -9,6 +9,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        SoftOff: SoftOff {
+            compatible = "zmk,behavior-soft-off";
+            label = "SOFTOFF";
+            #binding-cells = <0>;
+            hold-time-ms = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
