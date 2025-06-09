@@ -14,7 +14,7 @@
             compatible = "zmk,behavior-soft-off";
             label = "SOFTOFF";
             #binding-cells = <0>;
-            hold-time-ms = <1>;
+            hold-time-ms = <500>;
         };
     };
 
